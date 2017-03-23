@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.example;
+
+import "nanopb.proto";
+
+message MyMessage {
+    uint32 humidity = 1;
+    AdsGain gain = 2;
+
+    enum AdsGain {
+        GAIN_TWOTHIRDS = 0;
+        GAIN_ONE = 2;
+        GAIN_TWO = 4;
+        GAIN_FOUR = 6;
+        GAIN_EIGHT = 8;
+        GAIN_SIXTEEN = 10;
+    }
+}
