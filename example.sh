@@ -13,3 +13,10 @@ docker \
     -w `pwd` \
     wala/platformio-sodaqsamd-node \
         platformio run -d `pwd`/example/arduino
+
+docker \
+    run -it \
+    -v `pwd`:`pwd` \
+    -w `pwd` \
+    golang:latest \
+    go get -v github.com/robertkrimen/otto/otto
