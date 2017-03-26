@@ -7,6 +7,6 @@
   "author": "Joscha Feth <joscha@feth.com>",
   "license": "MIT",
   "dependencies": {
-    "ttn-proto-generator": "^1.0.0"
+    "ttn-proto-generator": "^1.0.1"
   }
 }
