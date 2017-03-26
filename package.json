@@ -1,0 +1,12 @@
+{
+  "name": "ttn-proto-utils",
+  "version": "1.0.0",
+  "description": "Utilities around using protobuf with The Things Network",
+  "main": "index.js",
+  "repository": "git@github.com:thesolarnomad/ttn-proto-utils.git",
+  "author": "Joscha Feth <joscha@feth.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ttn-proto-generator": "^1.0.0"
+  }
+}
