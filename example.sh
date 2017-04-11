@@ -2,7 +2,7 @@
 set -eu
 
 echo "--> Pulling docker images"
-docker pull wala/platformio-sodaqsamd-node
+docker pull wala/platformio-node-proto
 
 echo "--> Generating arduino lib files from proto"
 ./gen-c.sh \
@@ -14,7 +14,7 @@ docker \
     run -it \
     -v `pwd`:`pwd` \
     -w `pwd` \
-    wala/platformio-sodaqsamd-node \
+    wala/platformio-node-proto \
         platformio run -d `pwd`/example/arduino
 
 echo "--> Generating TTN console files"

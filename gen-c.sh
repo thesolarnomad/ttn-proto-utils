@@ -11,7 +11,7 @@ function main() {
         -it \
         -v `pwd`:`pwd` \
         -w `pwd` \
-        wala/platformio-sodaqsamd-node \
+        wala/platformio-node-proto \
             protoc \
                 --plugin=protoc-gen-nanopb=/nanopb/generator/protoc-gen-nanopb \
                 --nanopb_out="${outdir}" \

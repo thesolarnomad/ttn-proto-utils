@@ -4,7 +4,7 @@
 
 Toolbox for using protobuf-defined messages with The Things Network.
 This repository contains examples about how to use a message defined in the [protobuf format](https://github.com/google/protobuf) with an arduino sketch via [nanopb](https://jpa.kapsi.fi/nanopb/).
-It leverages [a docker file that comes with all necessary tools](https://hub.docker.com/r/wala/platformio-sodaqsamd-node/) installed and the [ttn-proto-generator](https://github.com/thesolarnomad/ttn-proto-generator) that can take a proto file and generate a `Converter`, `Decoder`, `Encoder` and `Validator` for The Things Network Console via [protobuf.js](https://github.com/dcodeIO/protobuf.js).
+It leverages [a docker file that comes with all necessary tools](https://hub.docker.com/r/wala/platformio-node-proto/) installed and the [ttn-proto-generator](https://github.com/thesolarnomad/ttn-proto-generator) that can take a proto file and generate a `Converter`, `Decoder`, `Encoder` and `Validator` for The Things Network Console via [protobuf.js](https://github.com/dcodeIO/protobuf.js).
 
 ## How? What?
 

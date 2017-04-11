@@ -11,6 +11,6 @@ notifications:
 node_js:
   - '7'
 before_install:
-  - docker pull wala/platformio-sodaqsamd-node
+  - docker pull wala/platformio-node-proto
 script:
   - ./example.sh
